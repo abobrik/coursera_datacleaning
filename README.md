@@ -23,10 +23,8 @@ Before running the script, you have to do some prerequesites:
 	If not, install these libraries with install.p ackages("...")  
 2.	Download a zip-file containing all data from the following link:   
 	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip   
-3.	Unzip the file. All files will be included in the main folder "UCI HAR Dataset".  
-4.	Change the script run_analysis.R on line 7 to match the file structure on your computer:  
-	Change root_path<-"C:/Users/Annette Bobrik/Documents/R/UCI HAR Dataset"  
-	to root_path<-"<path-to-main-folder>/UCI HAR Dataset"  
+3.	Unzip the file. All files will be included in the main folder "UCI HAR Dataset".   
+4.	Copy the folder "UCI HAR Dataset" with its content into your R working directory.
 5.	You might need to change the separator sign depending on your operating system in the script in line 8.  
 	The Default is sep=“/“ for Windows operating system.  
 
