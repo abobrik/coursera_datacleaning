@@ -2,11 +2,13 @@
 Version 1.0
 Author: Annette Bobrik (abobrik@hotmail.com)
 =========================================================================
-This code book contains all information about the variables in the avergae_mean_std_values.txt data set
+This code book contains all information about the variables in the average_mean_std_values.txt data set
 
 subject - id of the subject recorded
 activity.name -name of the activity
 activity - id of the activity
+
+!!! The  average_mean_std_values.txt data set contains the average values for each subject per activity for the following variables:
 
 The features  come from the accelerometer and gyroscope 3-axial raw signals tAcc and tGyro. 
 These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
