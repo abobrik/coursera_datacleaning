@@ -1,5 +1,4 @@
-==================================================================
-README run_analysis.R script
+# README run_analysis.R script
 Version 1.0
 ==================================================================
 Author: Annette Bobrik, Germany (abobrik@hotmail.com)
@@ -7,7 +6,7 @@ Author: Annette Bobrik, Germany (abobrik@hotmail.com)
 
 This README gives an overview of the run_analysis.R script.
 
-== OVERVIEW ======================================================
+# OVERVIEW 
 
 The R script run_analysis.R does the following. 
 1.	Merges the training and the test sets to create one data set.
