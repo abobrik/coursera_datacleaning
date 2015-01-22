@@ -49,6 +49,10 @@ data<-data[, unique(colnames(data))]
 ## select only columns containing mean or standard deviation values
 subdata<-select(data,contains("mean"),contains("std"),contains("activity"),contains("subject"))
 
+## drop columns containing "angle" identifier
+drops<-names(select(subdata,contains("angle")))
+subdata<-subdata[,!(names(subdata) %in% drops)]
+
 ## STEP 3: Uses descriptive activity names to name the activities in the data set
 ## Load activity names into table
 activities<-read.table(paste(root_path,"activity_labels.txt",sep=sep))

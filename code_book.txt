@@ -39,15 +39,6 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the 'angle' variable indicating the angle between two vectors.
-Therefore, for example angle.X.gravityMean refers to the angle of the X direction of the gravityMean value.
-
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
-
 =========================================================================================
 The complete list of all variables:
 
@@ -100,13 +91,6 @@ fBodyBodyGyroMag.Mean
 fBodyBodyGyroMag.MeanFreq
 fBodyBodyGyroJerkMag.Mean
 fBodyBodyGyroJerkMag.MeanFreq
-angle.tBodyAccMean.gravity
-angle.tBodyAccJerkMeangravityMean
-angle.tBodyGyroMean.gravityMean
-angle.tBodyGyroJerkMean.gravityMean
-angle.X.gravityMean
-angle.Y.gravityMean
-angle.Z.gravityMean
 tBodyAcc.Std.X
 tBodyAcc.Std.Y
 tBodyAcc.Std.Z
@@ -139,5 +123,4 @@ fBodyGyro.Std.Z
 fBodyAccMag.Std
 fBodyBodyAccJerkMag.Std
 fBodyBodyGyroMag.Std
-
 fBodyBodyGyroJerkMag.Std
