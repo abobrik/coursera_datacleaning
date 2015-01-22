@@ -1,0 +1,143 @@
+===== Code Book ==========================================================
+Version 1.0
+Author: Annette Bobrik (abobrik@hotmail.com)
+=========================================================================
+This code book contains all information about the variables in the avergae_mean_std_values.txt data set
+
+subject - id of the subject recorded
+activity.name -name of the activity
+activity - id of the activity
+
+The features  come from the accelerometer and gyroscope 3-axial raw signals tAcc and tGyro. 
+These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
+Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc and tGravityAcc) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk and tBodyGyroJerk). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc, fBodyAccJerk, fBodyGyro, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+'X', 'Y' and 'Z' are used to denote 3-axial signals in the X, Y and Z directions. 
+'Mean' and 'Std' are used to indicate mean and standard deviation values.
+Therefore, for example tGravityAcc.Mean.X refers to the mean value of the X direction of the tGravityAcc signal.
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+
+tBodyAcc
+tGravityAcc
+tBodyAccJerk
+tBodyGyro
+tBodyGyroJerk
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc
+fBodyAccJerk
+fBodyGyro
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the 'angle' variable indicating the angle between two vectors.
+Therefore, for example angle.X.gravityMean refers to the angle of the X direction of the gravityMean value.
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+=========================================================================================
+The complete list of all variables:
+
+subject
+activity.name
+activity
+tBodyAcc.Mean.X
+tBodyAcc.Mean.Y
+tBodyAcc.Mean.Z
+tGravityAcc.Mean.X
+tGravityAcc.Mean.Y
+tGravityAcc.Mean.Z
+tBodyAccJerk.Mean.X
+tBodyAccJerk.Mean.Y
+tBodyAccJerk.Mean.Z
+tBodyGyro.Mean.X
+tBodyGyro.Mean.Y
+tBodyGyro.Mean.Z
+tBodyGyroJerk.Mean.X
+tBodyGyroJerk.Mean.Y
+tBodyGyroJerk.Mean.Z
+tBodyAccMag.Mean
+tGravityAccMag.Mean
+tBodyAccJerkMag.Mean
+tBodyGyroMag.Mean
+tBodyGyroJerkMag.Mean
+fBodyAcc.Mean.X
+fBodyAcc.Mean.Y
+fBodyAcc.Mean.Z
+fBodyAcc.MeanFreq.X
+fBodyAcc.MeanFreq.Y
+fBodyAcc.MeanFreq.Z
+fBodyAccJerk.Mean.X
+fBodyAccJerk.Mean.Y
+fBodyAccJerk.Mean.Z
+fBodyAccJerk.MeanFreq.X
+fBodyAccJerk.MeanFreq.Y
+fBodyAccJerk.MeanFreq.Z
+fBodyGyro.Mean.X
+fBodyGyro.Mean.Y
+fBodyGyro.Mean.Z
+fBodyGyro.MeanFreq.X
+fBodyGyro.MeanFreq.Y
+fBodyGyro.MeanFreq.Z
+fBodyAccMag.Mean
+fBodyAccMag.MeanFreq
+fBodyBodyAccJerkMag.Mean
+fBodyBodyAccJerkMag.MeanFreq
+fBodyBodyGyroMag.Mean
+fBodyBodyGyroMag.MeanFreq
+fBodyBodyGyroJerkMag.Mean
+fBodyBodyGyroJerkMag.MeanFreq
+angle.tBodyAccMean.gravity
+angle.tBodyAccJerkMeangravityMean
+angle.tBodyGyroMean.gravityMean
+angle.tBodyGyroJerkMean.gravityMean
+angle.X.gravityMean
+angle.Y.gravityMean
+angle.Z.gravityMean
+tBodyAcc.Std.X
+tBodyAcc.Std.Y
+tBodyAcc.Std.Z
+tGravityAcc.Std.X
+tGravityAcc.Std.Y
+tGravityAcc.Std.Z
+tBodyAccJerk.Std.X
+tBodyAccJerk.Std.Y
+tBodyAccJerk.Std.Z
+tBodyGyro.Std.X
+tBodyGyro.Std.Y
+tBodyGyro.Std.Z
+tBodyGyroJerk.Std.X
+tBodyGyroJerk.Std.Y
+tBodyGyroJerk.Std.Z
+tBodyAccMag.Std
+tGravityAccMag.Std
+tBodyAccJerkMag.Std
+tBodyGyroMag.Std
+tBodyGyroJerkMag.Std
+fBodyAcc.Std.X
+fBodyAcc.Std.Y
+fBodyAcc.Std.Z
+fBodyAccJerk.Std.X
+fBodyAccJerk.Std.Y
+fBodyAccJerk.Std.Z
+fBodyGyro.Std.X
+fBodyGyro.Std.Y
+fBodyGyro.Std.Z
+fBodyAccMag.Std
+fBodyBodyAccJerkMag.Std
+fBodyBodyGyroMag.Std
+
+fBodyBodyGyroJerkMag.Std
