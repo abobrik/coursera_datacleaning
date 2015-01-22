@@ -6,7 +6,7 @@ Author: Annette Bobrik, Germany (abobrik@hotmail.com)
 
 This README gives an overview of the run_analysis.R script.
 
-# OVERVIEW 
+## OVERVIEW 
 
 The R script run_analysis.R does the following. 
 1.	Merges the training and the test sets to create one data set.
@@ -17,7 +17,7 @@ The R script run_analysis.R does the following.
 	of each variable for each activity and each subject.
 6.	The data set from step 5 is written to an .txt file
 
-== PREREQUISITES ======================================================
+## PREREQUISITES ======================================================
 
 Before running the script, you have to do some prerequesites:
 1.	Make sure you have installed the following R libraries: dplyr, data.table
