@@ -1,4 +1,4 @@
-# README run_analysis.R script
+## README run_analysis.R script
 Version 1.0
 ==================================================================
 Author: Annette Bobrik, Germany (abobrik@hotmail.com)
@@ -6,7 +6,7 @@ Author: Annette Bobrik, Germany (abobrik@hotmail.com)
 
 This README gives an overview of the run_analysis.R script.
 
-## OVERVIEW 
+### OVERVIEW 
 
 The R script run_analysis.R does the following. 
 1.	Merges the training and the test sets to create one data set.
@@ -17,7 +17,7 @@ The R script run_analysis.R does the following.
 	of each variable for each activity and each subject.
 6.	The data set from step 5 is written to an .txt file
 
-## PREREQUISITES ======================================================
+### PREREQUISITES
 
 Before running the script, you have to do some prerequesites:
 1.	Make sure you have installed the following R libraries: dplyr, data.table
@@ -31,7 +31,7 @@ Before running the script, you have to do some prerequesites:
 5.	You might need to change the separator sign depending on your operating system in the script in line 8. 
 	The Default is sep=“/“ for Windows operating system.
 
-== RUNNING THE SCRIPT =====================================================
+### RUNNING THE SCRIPT
 
 Run the script in R or RStudio. As a result, the file „average_mean_std_values.txt“ will be written to the main folder "UCI HAR Dataset".
 This file contains the average values of all subjects per activity type for the mean and standard deviation measurements of the train and 
@@ -39,7 +39,7 @@ test data sets provided in the "UCI HAR Dataset". The variables are described in
 
 Further information about the script is given by the comments in the script.
 
-== NOTES ON THE DATA============================================================
+### NOTES ON THE DATA
 The UCI HAR Dataset has been collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the 
 site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
