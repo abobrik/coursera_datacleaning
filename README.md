@@ -1,8 +1,7 @@
 ## README run_analysis.R script
+
 Version 1.0
-==================================================================
 Author: Annette Bobrik, Germany (abobrik@hotmail.com)
-==================================================================
 
 This README gives an overview of the run_analysis.R script.
 
